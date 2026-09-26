@@ -7,7 +7,7 @@ from nopecha import AsyncHTTPXAPIClient
 INVITE = input("Invite: ").strip()
 NOPECHA_KEY = input("NopeCHA API Key (press enter to skip): ").strip()
 
-nopecha_client = AsyncHTTPXAPIClient(NOPECHA_KEY) if NOPECHA_KEY else None
+nopecha_lxc = AsyncHTTPXAPIClient(NOPECHA_KEY) if NOPECHA_KEY else None
 
 async def solve_captcha_if_needed(e, token, invite_code):
     if not nopecha_client:
