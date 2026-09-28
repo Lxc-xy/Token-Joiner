@@ -1,4 +1,4 @@
-# Token-Joiner-with-NopeCHA-solver
+# Token Joiner
 A simple token joiner without modification of headers and supports solver.
 
 # Requirements
